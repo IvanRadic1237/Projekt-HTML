@@ -1,0 +1,231 @@
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 1px;
+}
+body{
+    background-image: url(Images/aple.jpg);
+    margin: 2px 0 0 0;
+    padding: 0px;
+    border: 0px;
+    
+}
+h1{
+    font-size: 150px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+h2{
+    font-size: 60px;
+    color: grey;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h3{
+    margin: 35px;
+    color: white;
+}
+p{
+    position: relative;
+    top: -160px;
+    padding: 0px 25px;
+    font-size: 25px;
+}
+section ul{
+    position: relative;
+    color: white;
+    left: 230px;
+    top: -190px;
+    list-style-type: circle;
+    color: ivory;
+    width: 330px;
+}
+article{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.figure2{
+    position: relative;
+    top: -140px;
+}
+#iphone{
+    background-color: rgb(0,18,32,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+}
+#iphone2{
+    background-color: rgb(0,18,32,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+    height: 2050px;
+}
+#ipad{
+    background-color: rgb(178,0,0,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+}
+#ipad2{
+    background-color: rgb(178,0,0,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+    height: 2050px;
+}
+#mac{
+    background-color: rgb(0,0,0,255);   
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+}
+#mac2{
+    background-color: rgb(0,0,0,255);   
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+    height: 2050px;
+}
+.apple{
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+}
+.proizvod{
+    position: relative;
+    color: white;
+    left: 245px;
+    top: -190px;
+    font-size: 35px;
+    width: 200px;
+}
+.proizvod2{
+    position: relative;
+    top: -140px;
+}
+.clear{
+    clear: both;
+}
+.ipad_picture{
+    width: 638px;
+    float: left;
+    top: -50px;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 28px;
+    color: whitesmoke;
+}
+th, td{
+    height: 50px;
+    text-align: center;
+}
+table, th, td {
+    border: 2px dashed black;
+    border-collapse: collapse;
+}
+#iphone2 th:hover, #iphone2 td:hover{
+    background-color: rgb(0,29,51,255);
+}
+#iphone2 table{
+    background-color: rgb(0,18,32,255);
+}
+#ipad2 th:hover, #ipad2 td:hover{
+    background-color: rgb(178,0,0,255);
+}
+#ipad2 table{
+    background-color: rgb(158,0,0,255);
+}
+#mac2 th:hover, #mac2 td:hover{
+    background-color: rgb(13, 13, 13);
+}
+#mac2 table{
+    background-color: rgb(0,0,0,255);
+}
+#mac2 table, #mac2 th, #mac2 td{
+    border: 2px dashed whitesmoke;
+}
+
+nav a{
+    display: block;
+    width: 2px;
+    padding: 20px 40px 20px 40px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav a:link, nav a:visited{
+    height: 40px;
+    background-color: rgb(27,27,27,255);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    line-height: 160%;
+    color: white;
+    width: 90%;
+    font-size: 26px;
+}
+nav a:hover{
+    background-color: rgb(44,44,44);
+
+}
+
+.div3{
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+#tablica{
+    position: absolute;
+    z-index: 10;
+    left: 94px;
+    bottom: -3550px;
+}
+#tablica table, #tablica th, #tablica td{
+    border: whitesmoke 2px solid;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+}
+#tablica table:hover, #tablica th:hover, #tablica td:hover{
+    background-color: rgb(44,44,44);
+}
+footer{
+    background-color:rgb(27,27,27,255);
+    color: whitesmoke;
+    border: rgb(44,44,44) solid 1px;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: -3700px;
+    height: 50px;
+    width: 99%;
+}
+footer p{
+    position: absolute;
+    top: 0;
+    left: 750px;
+    font-size: 30px;
+    line-height: 200%;
+} 

@@ -1,0 +1,116 @@
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 1px;
+}
+body{
+    background-image: url(../Images/kontpoz.png);
+    margin: 2px 0 0 0;
+    padding: 0px;
+    border: 0px;
+}
+h1{
+    font-size: 150px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+nav{
+    width: 100%;
+}
+ul li{
+    width: 25%;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    display: block;
+}
+nav a:link, nav a:visited{
+    height: 60px;
+    background-color: rgb(27,27,27,255);
+    text-decoration: none;
+    line-height: 220%;
+    color: white;
+    font-size: 26px;
+}
+nav a:hover{
+    background-color: rgb(44,44,44);
+}
+#divmain{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    background-color: rgb(44,44,44);
+    font-size: 25px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    max-width: 400px;
+}
+footer{
+    height: 50px;
+    width: 99%;
+    background-color:rgb(27,27,27,255);
+    color: whitesmoke;
+    border: rgb(44,44,44) solid 1px;
+    font-size: 30px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 40px;
+}
+table, th, td{
+    border: 0;
+    width: 300px;
+    padding: 10px;
+}
+caption{
+    padding-top: 20px;
+    font-size: 55px;
+}
+td a{
+    text-decoration: none;
+}
+iframe{
+    margin: 20px;
+    margin-top: 300px;
+    max-width: 600px;
+}
+@media screen and (max-width: 1250px){
+    #divmain{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 800px) {
+    body{
+        margin-left: 0px;
+        margin-right: 18px;
+    }
+    h1{
+        font-size: 100px;
+    }
+
+}
+@media (max-width: 576px){
+    ul{      
+        flex-direction: column;
+    }
+    ul li{
+        width: 100%;
+    }
+}

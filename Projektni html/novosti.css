@@ -1,0 +1,47 @@
+*{
+    font-family: 'Abel', sans-serif;
+}
+h1{
+    font-size: 200px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 30px;
+    max-width: 300px;
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0 auto;
+}
+h2, h3, h4, h5, h6{
+    font-family: 'Saira Condensed', sans-serif;
+}
+.card{
+    margin-bottom: 30px;
+}
+body{
+    background-image: url(Images/aple.jpg);
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: whitesmoke;
+    font-size: 22px;
+}
+ul li{   
+    border: 0.5px solid rgb(44,44,44);
+}
+.float-end a{
+    text-decoration: none;
+    color: gray;
+    background-color: rgb(44,44,44);
+    border-radius: 10px;
+    padding: 5px;
+}
+#navig a{
+    background-color: rgb(27,27,27,255);
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 26px;
+}
+#navig a:hover{
+    background-color: rgb(44,44,44);
+}

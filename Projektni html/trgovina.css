@@ -1,0 +1,104 @@
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    color: whitesmoke;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(27, 21, 21);
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+ul li{
+    width: 25%;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    display: block;
+}
+nav a:link, nav a:visited{
+    height: 60px;
+    background-color: rgb(27,27,27,255);
+    text-decoration: none;
+    line-height: 220%;
+    color: white;
+    font-size: 26px;
+}
+nav a:hover{
+    background-color: rgb(44,44,44);
+}
+main{
+    width: 100%;
+    min-height: 46vh;
+    background-image: url(Images/shop_background.jpg);
+}
+main h1{
+    margin: 0;
+    padding-top: 80px;
+    font-size: 120px;
+    color: beige;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: white;
+}
+section{
+    display: flex;
+    margin: 50px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 750px;
+}
+img{
+    width: 190px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section div{
+    margin-bottom: 50px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    background-color:rgb(27, 21, 21);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 15px;
+    transition: background-color 1s ease-in;
+}
+button:hover{
+    background-color:gray;
+}
+section h2{
+    font-size: 30px;
+}
+@media (max-width: 576px){
+    section{
+        justify-content: space-around;
+    }
+    ul{      
+        flex-direction: column;
+    }
+    ul li{
+        width: 100%;
+    }
+}
